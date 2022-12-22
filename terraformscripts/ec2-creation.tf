@@ -4,7 +4,7 @@ provider "aws"{
 
 resource "aws_instance" "AWSServer"{
      count   = 1
-     ami = "ami-08e637cea2f053dfa"
+     ami = "ami-0f9d9a251c1a44858"
      instance_type = "t2.micro"
      security_groups = ["launch-wizard-2"]
      key_name = "ramesh"
